@@ -1,11 +1,5 @@
-import numpy as np
-# arr = np.array([1,2,3,4,5])
-# print(arr)
+import pandas as pd
 
+df = pd.read_csv("Virat_Kohli_ODI.csv")
 
-arr = np.array([[1,2,3,4],[1,2,3,4]])
-print(arr)
-print(type(arr))
-print(arr.ndim)
-print(arr[1:1:1])
-
+print(df) 
